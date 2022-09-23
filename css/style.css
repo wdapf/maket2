@@ -1,0 +1,95 @@
+body {
+	cursor: pointer;
+}
+.header {
+	min-height: 200px;
+	background: rgba(51, 51, 51, 1.0);
+}
+.one {
+	margin-top: 25px;
+	margin-bottom: 45px;
+}
+.one div:last-child ul{
+	padding-left: 0;
+	background-color: #fe2232;
+	padding: 5px;
+	border-radius: 5px / 5px;
+}
+.one div:last-child a{
+	color: #ffffff;
+}
+.registration ul{
+	border: 2px solid #a7a7a7;
+	border-radius: 5px / 5px;
+	padding: 5px;
+}
+.nav {
+	min-height: 475px;
+	margin-left: 0;
+	margin-right: 0;
+}
+h1 {
+	color: #ffffffff;
+	display: block;
+}
+.container h1>span {
+	font-weight: 800;
+}
+.menu li{
+	display: inline-block;
+}
+.menu ul{
+	padding: 5px;
+}
+.menu a {
+	color: #a8a8a8;
+}
+.text {
+	text-align: center;
+}
+.point {
+	border: 2px solid red;
+	border-radius: 200px / 200px;
+}
+.cart {
+	padding: 0;
+}
+.search {
+	min-height: 60px;
+}
+.search li {
+	list-style-type: none;
+	margin-top: 10px;
+	text-align: center;
+}
+.search li a {
+	padding: 10px;
+	display: block;
+}
+.search input{
+	border-radius: 5px / 5px;
+	margin-top: 5px;
+	width: 250px;
+}
+.calendar {
+	height: 32px;
+	background: url(../images/calendar.png) no-repeat 15px;
+}
+.calen {
+	display: none;
+	transform: translateY(-100px)translateX(50px);
+}
+.calendar:active .calen {
+	display: block;
+	transition: ease 3s all;
+}
+.calen:hover {
+	display: block;
+}
+.info {
+	background: #f4f4f4;
+}
+.picture a {
+	text-decoration: none;
+	color: #36393b;
+}
